@@ -18,5 +18,11 @@
       "component": "root",
       "route": true
     }
-  ]
+  ],
+  "modals": [
+	{
+	  "name": "tutorial-modal",
+	  "component": "tutorialModal"
+	}
+]
 }
