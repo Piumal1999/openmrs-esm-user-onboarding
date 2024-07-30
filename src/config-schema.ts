@@ -19,6 +19,7 @@ export const configSchema = {
             target: '[aria-label="OpenMRS"]',
             content:
               'Welcome to OpenMRS! This is the main dashboard where you can navigate to various features of the system.',
+            disableBeacon: true,
           },
           {
             target: '[name="SearchPatientIcon"]',
