@@ -21,7 +21,7 @@ test('Basic Walkthrough', async ({ page }) => {
   });
 
   await test.step('Then I should see the tutorial modal', async () => {
-    await expect(page.getByText('Tutorials')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Tutorials' })).toBeVisible();
 
     await expect(
       page.getByText(/find walkthroughs and video tutorials on some of the core features of openMRS./i),
